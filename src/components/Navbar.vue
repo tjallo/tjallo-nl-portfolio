@@ -28,6 +28,8 @@ import { RouterLink, RouterView } from "vue-router";
 const routerLinks = [
   { name: "Home", href: "/" },
   { name: "Skills", href: "/skills" },
+  { name: "Education", href: "/education" },
+  { name: "Experience", href: "/experience" },
 ];
 </script>
 

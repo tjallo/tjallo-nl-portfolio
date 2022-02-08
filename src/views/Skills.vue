@@ -27,6 +27,9 @@
 </template>
 
 <script setup lang="ts">
+import { ChipIcon } from "@heroicons/vue/solid"
+import StarRating from '@/components/StarRating.vue';
+
 const skills = [
   { name: "Python", rating: "5" },
   { name: "Node.js", rating: "5" },
@@ -35,7 +38,6 @@ const skills = [
   { name: "Docker", rating: "3" },
 ];
 
-import StarRating from '@/components/StarRating.vue';
 </script>
 
 <style>
