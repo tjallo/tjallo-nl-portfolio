@@ -26,7 +26,7 @@ import { RouterLink, RouterView } from "vue-router";
 
 // Add Links you want to display in Navbar here
 const routerLinks = [
-  { name: "Home", href: "/" },
+  { name: "About me", href: "/" },
   { name: "Skills", href: "/skills" },
   { name: "Education", href: "/education" },
   { name: "Experience", href: "/experience" },

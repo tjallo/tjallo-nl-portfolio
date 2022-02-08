@@ -1,8 +1,8 @@
 <template>
   <div class="container px-5 py-10 mx-auto">
     <div class="text-center mb-20">
-      <BookOpenIcon class="w-10 inline-block mb-4" />
-      <h1 class="sm:text-4xl text-3xl mb-2">Education</h1>
+      <UserCircleIcon class="w-10 inline-block mb-4 text-blue-700" />
+      <h1 class="sm:text-4xl text-3xl mb-2">About me</h1>
       <p class="mx-auto">
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi sit ipsa
         delectus eum quo voluptas aspernatur accusantium distinctio possimus
@@ -13,7 +13,7 @@
 </template>
 
 <script setup lang="ts">
-import { BookOpenIcon } from "@heroicons/vue/outline"
+import {UserCircleIcon} from "@heroicons/vue/outline"
 </script>
 
 <style>
